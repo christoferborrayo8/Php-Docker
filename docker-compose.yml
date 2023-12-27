@@ -10,3 +10,5 @@ services:
     restart: always
     ports:
       - 8010:8000
+    volumes:
+      - ./miVolumen:/var/www/html/tmp/
